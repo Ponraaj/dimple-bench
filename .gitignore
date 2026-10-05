@@ -1,0 +1,9 @@
+data/
+toolchain/
+toolchain-a12/
+node_modules/
+.env
+scratch/
+results/*/questions/
+results/*/stores/
+*.log

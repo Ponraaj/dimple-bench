@@ -1,0 +1,37 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "reader": "direct",
+  "baseUrl": "https://opencode.ai/zen/go/v1",
+  "judged": 500,
+  "accuracy": 0.908,
+  "taskAveraged": 0.9167,
+  "abstention": 0.8667,
+  "abstentionCount": 30,
+  "byType": {
+    "knowledge-update": {
+      "accuracy": 0.9103,
+      "count": 78
+    },
+    "multi-session": {
+      "accuracy": 0.8195,
+      "count": 133
+    },
+    "single-session-assistant": {
+      "accuracy": 1,
+      "count": 56
+    },
+    "single-session-preference": {
+      "accuracy": 0.8667,
+      "count": 30
+    },
+    "single-session-user": {
+      "accuracy": 0.9714,
+      "count": 70
+    },
+    "temporal-reasoning": {
+      "accuracy": 0.9323,
+      "count": 133
+    }
+  },
+  "comparability": "judge and reader are OpenCode Go models, not the paper's gpt-4o-2024-08-06; not directly comparable to published LongMemEval numbers"
+}

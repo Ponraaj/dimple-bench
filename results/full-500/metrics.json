@@ -1,0 +1,158 @@
+{
+  "questions": 500,
+  "scored": 470,
+  "abstentionExcluded": 30,
+  "session": {
+    "recall_any@5": 0.970213,
+    "recall_all@5": 0.868085,
+    "ndcg@5": 0.750132,
+    "recall_any@10": 0.989362,
+    "recall_all@10": 0.938298,
+    "ndcg@10": 0.808863
+  },
+  "turn": {
+    "recall_any@5": 0.753191,
+    "recall_all@5": 0.425532,
+    "ndcg@5": 0.499983,
+    "recall_any@10": 0.851064,
+    "recall_all@10": 0.606383,
+    "ndcg@10": 0.554931,
+    "recall_any@50": 0.965957,
+    "recall_all@50": 0.895745,
+    "ndcg@50": 0.610782
+  },
+  "byType": {
+    "knowledge-update": {
+      "count": 72,
+      "session": {
+        "recall_any@5": 1,
+        "recall_all@5": 0.972222,
+        "ndcg@5": 0.799072,
+        "recall_any@10": 1,
+        "recall_all@10": 0.986111,
+        "ndcg@10": 0.856204
+      },
+      "turn": {
+        "recall_any@5": 0.847222,
+        "recall_all@5": 0.402778,
+        "ndcg@5": 0.46984,
+        "recall_any@10": 0.944444,
+        "recall_all@10": 0.722222,
+        "ndcg@10": 0.539999,
+        "recall_any@50": 1,
+        "recall_all@50": 1,
+        "ndcg@50": 0.582288
+      }
+    },
+    "multi-session": {
+      "count": 121,
+      "session": {
+        "recall_any@5": 0.975207,
+        "recall_all@5": 0.768595,
+        "ndcg@5": 0.770028,
+        "recall_any@10": 0.991736,
+        "recall_all@10": 0.900826,
+        "ndcg@10": 0.821093
+      },
+      "turn": {
+        "recall_any@5": 0.735537,
+        "recall_all@5": 0.181818,
+        "ndcg@5": 0.377945,
+        "recall_any@10": 0.867769,
+        "recall_all@10": 0.413223,
+        "ndcg@10": 0.456941,
+        "recall_any@50": 0.966942,
+        "recall_all@50": 0.801653,
+        "ndcg@50": 0.533991
+      }
+    },
+    "single-session-assistant": {
+      "count": 56,
+      "session": {
+        "recall_any@5": 1,
+        "recall_all@5": 1,
+        "ndcg@5": 0.944375,
+        "recall_any@10": 1,
+        "recall_all@10": 1,
+        "ndcg@10": 0.958532
+      },
+      "turn": {
+        "recall_any@5": 0.857143,
+        "recall_all@5": 0.857143,
+        "ndcg@5": 0.741219,
+        "recall_any@10": 0.982143,
+        "recall_all@10": 0.982143,
+        "ndcg@10": 0.785038,
+        "recall_any@50": 1,
+        "recall_all@50": 1,
+        "ndcg@50": 0.789863
+      }
+    },
+    "single-session-preference": {
+      "count": 30,
+      "session": {
+        "recall_any@5": 0.966667,
+        "recall_all@5": 0.966667,
+        "ndcg@5": 0.595222,
+        "recall_any@10": 0.966667,
+        "recall_all@10": 0.966667,
+        "ndcg@10": 0.716516
+      },
+      "turn": {
+        "recall_any@5": 0.666667,
+        "recall_all@5": 0.5,
+        "ndcg@5": 0.531771,
+        "recall_any@10": 0.733333,
+        "recall_all@10": 0.633333,
+        "ndcg@10": 0.566049,
+        "recall_any@50": 0.966667,
+        "recall_all@50": 0.9,
+        "ndcg@50": 0.632641
+      }
+    },
+    "single-session-user": {
+      "count": 64,
+      "session": {
+        "recall_any@5": 0.953125,
+        "recall_all@5": 0.953125,
+        "ndcg@5": 0.707764,
+        "recall_any@10": 0.984375,
+        "recall_all@10": 0.984375,
+        "ndcg@10": 0.776399
+      },
+      "turn": {
+        "recall_any@5": 0.796875,
+        "recall_all@5": 0.78125,
+        "ndcg@5": 0.734625,
+        "recall_any@10": 0.890625,
+        "recall_all@10": 0.875,
+        "ndcg@10": 0.767879,
+        "recall_any@50": 0.96875,
+        "recall_all@50": 0.953125,
+        "ndcg@50": 0.788023
+      }
+    },
+    "temporal-reasoning": {
+      "count": 127,
+      "session": {
+        "recall_any@5": 0.944882,
+        "recall_all@5": 0.779528,
+        "ndcg@5": 0.675722,
+        "recall_any@10": 0.984252,
+        "recall_all@10": 0.889764,
+        "ndcg@10": 0.742549
+      },
+      "turn": {
+        "recall_any@5": 0.669291,
+        "recall_all@5": 0.283465,
+        "ndcg@5": 0.401219,
+        "recall_any@10": 0.732283,
+        "recall_all@10": 0.417323,
+        "ndcg@10": 0.445354,
+        "recall_any@50": 0.929134,
+        "recall_all@50": 0.850394,
+        "ndcg@50": 0.526654
+      }
+    }
+  }
+}

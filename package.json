@@ -1,0 +1,22 @@
+{
+  "name": "dimple-longmemeval-bench",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "bun run src/run.ts",
+    "verify": "bun run src/verify.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.0",
+    "@ponraaj/dimple-sdk": "0.0.0-alpha.11",
+    "effect": "4.0.0"
+  },
+  "devDependencies": {
+    "@effect/vitest": "4.0.0",
+    "@types/bun": "latest",
+    "typescript": "^5.9.2",
+    "vitest": "5.0.2"
+  }
+}
